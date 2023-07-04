@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    .pdf-item {
+      text-align: center;
+    }
+
+    .pdf-thumbnail {
+      width: 200px;
+      height: 200px;
+    }
+
+    .pdf-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .pdf-subtitle {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    .pdf-description {
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="pdf-item">
+      <a href="ruta_pdf1.pdf">
+        <img class="pdf-thumbnail" src="ruta_imagen1.jpg" alt="Miniatura PDF 1">
+      </a>
+      <div class="pdf-title">Título PDF 1</div>
+      <div class="pdf-subtitle">Subtítulo PDF 1</div>
+      <div class="pdf-description">Descripción breve del PDF 1</div>
+    </div>
+    <div class="pdf-item">
+      <a href="ruta_pdf2.pdf">
+        <img class="pdf-thumbnail" src="ruta_imagen2.jpg" alt="Miniatura PDF 2">
+      </a>
+      <div class="pdf-title">Título PDF 2</div>
+      <div class="pdf-subtitle">Subtítulo PDF 2</div>
+      <div class="pdf-description">Descripción breve del PDF 2</div>
+    </div>
+    <div class="pdf-item">
+      <a href="ruta_pdf3.pdf">
+        <img class="pdf-thumbnail" src="ruta_imagen3.jpg" alt="Miniatura PDF 3">
+      </a>
+      <div class="pdf-title">Título PDF 3</div>
+      <div class="pdf-subtitle">Subtítulo PDF 3</div>
+      <div class="pdf-description">Descripción breve del PDF 3</div>
+    </div>
+    <!-- Agrega más elementos de PDF aquí si es necesario -->
+  </div>
+</body>
+</html>

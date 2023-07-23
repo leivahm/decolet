@@ -1,3 +1,13 @@
+a {
+  color: #00a8e1;
+  text-decoration: none; /* Para quitar el subrayado predeterminado de los enlaces */
+  transition: color 0.5s; /* Transición para el cambio de color durante el hover */
+}
+
+a:hover {
+  color: #33cc33;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

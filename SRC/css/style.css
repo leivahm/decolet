@@ -50,16 +50,16 @@ a:hover {
   }
 
   .pdfg-title {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 5px;
   }
 
   .pdfg-subtitle {
-    font-size: 14px;
+    font-size: .9rem;
     margin-bottom: 5px;
   }
 
   .pdfg-description {
-    font-size: 12px;
+    font-size: .8rem;
   }

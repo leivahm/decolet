@@ -38,9 +38,10 @@ a:hover {
     font-size: 12px;
   }
 
+  /* DISABLED STYLE ▼▼▼ */
   .pdfg-item {
     text-align: center;
-    color: #33cc33;
+    color:darkgrey;
   }
 
   .pdfg-thumbnail {

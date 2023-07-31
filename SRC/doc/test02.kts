@@ -1,9 +1,4 @@
 fun main() {
-    /*val greeting = birthdayGreeting()
-    println(greeting)
-    println(birthdayGreeting("Ivo", 17))
-    val count: Int
-    count = 10*/
     val count = 10
     println("You have $count unread messages.")
 }

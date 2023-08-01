@@ -5,4 +5,8 @@ fun main() {
     println("You have $count unread messages.")
     count++
     println("You have $count unread messages now.")
+    count = count - 1
+    println("You have $count unread messages now.")
+    count--
+    println("You have $count unread messages now.")
 }

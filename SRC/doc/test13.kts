@@ -1,5 +1,8 @@
 fun main() {
-    pr("Ey, hola!")
+    val nombre : String
+    nombre = "Fabricio"
+
+    pr("Ey, hola $nombre!")
 }   // Aquí estamos pasando un string a la función pr()
 
 fun pr(mensaje: String) {

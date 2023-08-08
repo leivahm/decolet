@@ -1,5 +1,5 @@
 fun main() {
-    val Steps = 4000
+    val Steps = 4120
     val caloriesBurned = PEDOMETERstepsTOcalories(Steps);
     println("Walking $Steps steps burns $caloriesBurned calories")
 }

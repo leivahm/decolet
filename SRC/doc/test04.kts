@@ -9,4 +9,5 @@ fun main() {
     println("You have $count unread messages now.")
     count--
     println("You have $count unread messages now.")
+    // Testing with an cycle to watch the run
 }

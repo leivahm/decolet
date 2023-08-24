@@ -3,7 +3,8 @@ fun main() {
     nombre = "Fabricio Maximilian Leiva"
 
     pr("Ey, hola $nombre!")
-}   // Aquí estamos pasando un string a la función pr()
+}   
+    // Aquí estamos pasando un string a la función pr()
 
 fun pr(mensaje: String) {
     println(mensaje)

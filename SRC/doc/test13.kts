@@ -1,6 +1,6 @@
 fun main() {
     val nombre : String
-    nombre = "Fabricio"
+    nombre = "Fabricio Maximilian Leiva"
 
     pr("Ey, hola $nombre!")
 }   // Aquí estamos pasando un string a la función pr()
